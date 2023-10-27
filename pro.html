@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <style>
+        /* navigation bar starts here */
+        .nav-bar{
+            background-color:black;
+            height: 80px;
+            width: 100%;
+            border: 2px black solid;
+            display:inline-block;
+            align-items:center;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+
+        }
+        .nav-items a{
+            color: whitesmoke;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0;
+            position:relative;
+            left: 900px;
+            bottom: 15px;
+            padding: 5px;      
+        }
+
+        .nav-items a:hover{
+            text-decoration: underline;
+            color: chartreuse;
+        }
+        /* navigation bar ends here */
+
+
+        /* home starts here */
+        .home img{
+            position:relative ;
+            top: 93px;
+            left: 10px;
+            width: 97%;
+            height: 800px;
+            
+          
+
+        }
+
+        body{
+            background-color:black;
+        }
+
+        h2{
+            color: whitesmoke;
+            font-size: 30px; 
+            position: relative;
+            top:95px;
+        }
+        
+
+        .trending img{
+            position:relative;
+            top: 96px; 
+            margin:20px;    
+            display:inline-block;
+            width: 15%;
+            margin: 7px; 
+            
+        }
+       
+        .img1 img:hover{
+            transform: scale(1.2);
+            transition:all 0.5s ease-in-out ;
+            border-radius: 10px;
+        }
+
+        h3{
+            color: whitesmoke;
+            font-size: 30px; 
+            position: relative;
+            top:99px;
+        }
+        .trend{
+            margin-top:150px;
+
+        }
+
+        .new img{
+            position:relative;
+            top:96px; 
+            margin:20px;    
+            display:inline-block;
+            width: 15%;
+            margin: 7px; 
+             
+            
+        }
+       
+        .img2 img:hover{
+            transform: scale(1.2);
+            transition:all 0.5s ease-in-out ;
+            border-radius: 10px;
+        }
+        /* about section starsts here */
+        .about{
+            border: 1px solid white;
+            height: 200px;
+            position: relative;
+            top:102px;
+            
+            
+
+        }
+        
+        .about a{
+            display: inline-block;
+            padding: 10px;
+            color: white;
+            font-size: 17px;
+        }
+        .about_img h5{
+            color: white;
+
+        }
+        .about_content{
+            color:white;
+            font-size:15px ;
+            display: block;
+            position: relative;
+            top: 17px;
+        }
+
+        .about_img1 img{
+            width: 50px;
+            position: relative;
+            bottom: 50px;
+            left: 860px;
+            height: 50px;
+        }
+       
+        .about_img1 h3{
+            position: absolute;
+            top: 29px;
+            left: 840px;
+            font-size: 20px;
+
+
+        }
+        .about_img2 img{
+            width: 50px;
+            position: absolute;
+            bottom: 70px;
+            left: 1098px;
+            height: 50px;
+        }
+        .about_img2 h4{
+            color: whitesmoke;
+            position: absolute;
+            top: 25px;
+            left: 1070px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nav-logo">
+            <img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg" alt="">
+        </div>
+        <div class="nav-items">
+            <a href="#home">HOME</a>
+            <a href="#new">NEWLY ADDED</a>
+            <a href="##">FAV</a>
+            <a href="#trend">TRENDING</a>
+            <a href="##">LOGIN</a>
+            <a href="##">ABOUT</a>
+        </div>
+    </div>
+    </div>
+    <!-- carosuel starts here -->
+<div class="home" id="home">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://shifu.hotstarext.com/SOURCE/VOD/cd-2023-01-20/TheNightManagerDated_desk-6353c0ec-3db7-4ef5-996d-637af6c3376a.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4292/754292-h" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/5422/1445422-h-aa26fdae4221" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+    
+       
+   
+    <div class="trend" id="trend">
+        <h2>Trending</h2>
+    </div>
+    
+    <br>
+    <div class="trending">
+        <div class="img1">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/5232/1455232-v-588cdd7f42c3" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/2089/1442089-v-ae8554f65936" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3065/1323065-v-58c6d2de61e1" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/7639/1307639-v-e58374d4d501" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1653/1431653-v-f6c5b91a3235" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3156/1063156-v-a2019de35b6e" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1175/1451175-v-b52cb9fc27ca" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5052/1405052-v-2063bab41935" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5243/1455243-v-c7c8070be2ee" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1965/1441965-v-6561f230c549" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9490/1429490-v-b6665ae9e72f" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1689/1441689-v-62ff70f22138" alt="">
+        
+        
+    </div>
+    </div>
+
+    <div class="newly_added">
+        <h3>newly added</h3>
+    </div>
+    
+    <br>
+    <div class="new" id="new">
+        <div class="img2">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/5232/1455232-v-588cdd7f42c3" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/2089/1442089-v-ae8554f65936" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3065/1323065-v-58c6d2de61e1" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/7639/1307639-v-e58374d4d501" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1653/1431653-v-f6c5b91a3235" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3156/1063156-v-a2019de35b6e" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1175/1451175-v-b52cb9fc27ca" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5052/1405052-v-2063bab41935" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5243/1455243-v-c7c8070be2ee" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1965/1441965-v-6561f230c549" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9490/1429490-v-b6665ae9e72f" alt="">
+        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1689/1441689-v-62ff70f22138" alt="">
+        
+        
+    </div>
+    </div>
+    <br>
+    <br>
+    <div class="about">
+        <a href=""><div class="about_anchor1">AboutDisney+Hotstar</div></a>
+        <a href=""><div class="about_anchor1">terms of use</div></a>
+        <a href=""><div class="about_anchor1">Privacy policy</div></a>
+        <a href=""><div class="about_anchor1">FAQ</div></a>
+        <a href=""><div class="about_anchor1">Feedback</div></a>
+        <a href=""><div class="about_anchor1">Careers</div></a>
+        <div class="about_content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Velit fuga nisi tempora facilis optio, quos officia praesentium aliquid dicta? Eaque sit <br> perspiciatis quibusdam earum. Blanditiis omnis est laborum explicabo, nostrum fugit debitis ratione iste!</p>
+        </div>
+        <div class="about_img1">
+            <h3>connect with us</h3>
+            <img src="data:image/jpeg;base64,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" alt="">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="about_img2">
+            <h4>disney hotstar</h4>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTcrCl3xu7TMF-kz-UOWhXBwivPQ-NbJ25Z_M8Kpkd&s" alt=""> 
+        </div>
+    </div>
+
+</body>
+</html>
